@@ -1,0 +1,266 @@
+#logo{
+    margin: 10px; 
+}
+
+.nav-item{
+    margin-right: 20px;
+
+}
+
+/* .nav-container{
+    padding: 3% 15% 7%;
+  } */
+ 
+.navbar{
+    padding: 3% 15% 7%;
+  }
+
+.navbar-brand{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: aquamarine;
+
+    
+  }
+.nav-link{
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: bold; 
+    
+    
+}  
+
+.nav-link:hover{
+    color:aquamarine;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    padding-top: 5px;
+    
+}  
+
+ul li{
+    display: inline;
+    width: 0%;
+    flex: 1; 
+    text-decoration: none;
+}
+
+.nav-container-2{
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.intro{
+    /* background-color: #ebf0f7; */
+    background-color: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+h1:hover span{
+    color: black !important;
+}
+
+.intro-text{
+    padding: 3% 15% 7%;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 900;
+
+}
+
+.image{
+    border-radius: 25px;
+    width: 60%;
+    height: auto; 
+    opacity: 0.3;
+}
+
+h1 > .special-text{
+    font-size: 25px;
+    font-family: 'Arimo', sans-serif;
+    font-color: red;
+}
+
+#about{
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    background-color: black;
+    padding-bottom: 100px;
+    
+}
+.about-header{
+    padding-top: 100px;
+    display: flex; 
+    justify-content: center;
+    color: white;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.about-text{
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    /* margin: 80px; */
+    
+}
+
+.about-img{
+
+    width: 100%;
+    padding-right: 50px;
+    /* height: auto;  */
+    /* display: flex; */
+    opacity: 0.3;
+    border-radius: 25px;
+    /* justify-content: center;
+*/
+}
+.skills-header{
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.skills-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 35%;
+    padding: 100px 0px 100px 0px;
+    background-color: #fff;
+    border-radius: 11px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    /* padding: 20px;
+    margin: 10px; */
+}
+
+.skill{
+    width: 10%;
+    margin-left: 150px;
+    display:inline-flexbox;
+    justify-content: center;
+}
+
+.skill-container{
+    justify-content: center;
+}
+
+#skills{
+    justify-content: center;
+}
+
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .quotes{
+      text-align: center;
+      font-family: 'PT Sans Caption', sans-serif;
+      padding-bottom: 50px;
+
+  }
+
+  #qoutes-corousel{
+      margin: 100px;
+   
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    /* font-size: 100px; 
+    margin-top: -50px; */ß
+    color: red;
+}
+
+    /* .carousel-inner{
+        width: 200px;
+       
+    } */
+    .carousel-item{
+        text-align: center;
+        /* width: 50%; */
+    }
+
+  .form-container{
+    background-color:aquamarine ;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    justify-content: center;
+    
+  }
+
+  .contact-box{
+      background-color:aquamarine;
+      display: flex;
+      
+  }
+
+  .connect-txt{
+    color: white;
+    padding-top: 20px;
+
+  }
+
+  .request-txt{
+      padding-top: 50px;
+      /* text-align: center; */
+  }
+
+  .input-group{
+      padding: 30px;
+      font-family: 'PT Sans Caption', sans-serif;
+      display: grid;
+      text-align: center;     
+  }
+
+  /* input[type=text]{
+    border-radius:20px 20px ;
+  } */
+
+  /* input[type=message]{
+    border-radius:20px;
+  } */
+  form{
+     margin: 0 auto;
+     background-color:aquamarine;
+     
+     
+  }
+#reach-me{
+    margin-top: 50px;
+    
+}
+.reach-txt{
+    text-align: center;
+}
+
+#footer{
+   text-align: center;
+   padding: 10px;
+}
+
+.copyright{
+    padding-top: 20px;
+}
+
+.footer-icon{
+    padding: 10px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.btn{
+    margin-bottom: 20px;
+}
