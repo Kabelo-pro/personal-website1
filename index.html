@@ -70,7 +70,7 @@
         </div>
     </section>
 
-    <section id="about">
+   <section id="about">
         <div class="container">
             <div class="about-header row">
                 <div class="col-lg-6">
@@ -81,20 +81,26 @@
             </div>
         </div>
     </section>
-    
-    <section id="skills">
+
+    <!-- Add your existing HTML code for other sections (portfolio, skills, etc.) here -->
+
+    <section id="contact">
         <div class="container">
-            <h2 class="animate__animated animate__fadeInUp">Skills</h2>
-            <div class="skill-icons">
-                <i class="fab fa-html5 animate__animated animate__bounce" style="font-size: 48px;"></i>
-                <i class="fab fa-css3-alt animate__animated animate__bounce" style="font-size: 48px;"></i>
-                <i class="fab fa-js animate__animated animate__bounce" style="font-size: 48px;"></i>
-                <i class="fab fa-react animate__animated animate__bounce" style="font-size: 48px;"></i>
-                <i class="fab fa-node-js animate__animated animate__bounce" style="font-size: 48px;"></i>
+            <h2 class="animate__animated animate__fadeInUp">Contact Me</h2>
+            <form class="contact-form animate__animated animate__fadeInUp" action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+            <div class="social-icons animate__animated animate__fadeInUp">
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
             </div>
         </div>
     </section>
-    
 
     
     
