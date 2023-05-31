@@ -1,0 +1,518 @@
+#logo{
+    margin: 10px; 
+}
+
+.nav-item{
+    margin-right: 20px;
+
+}
+
+/* .nav-container{
+    padding: 3% 15% 7%;
+  } */
+ 
+.container{
+    background-image: url("https://i.imgur.com/m42aRwr.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff; /* Set the text color to white for contrast */
+    padding: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.6;
+
+
+
+}  
+.navbar{
+    padding: 3% 15% 7%;
+  }
+
+.navbar-brand{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: aquamarine;
+
+    
+  }
+.nav-link{
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: bold; 
+    
+    
+}  
+
+.nav-link:hover{
+    color:aquamarine;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    padding-top: 5px;
+    
+}  
+
+ul li{
+    display: inline;
+    width: 0%;
+    flex: 1; 
+    text-decoration: none;
+}
+
+.nav-container-2{
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.intro{
+    /* background-color: #ebf0f7; */
+    background-color: white;
+    text-align: center;
+
+    /* padding-bottom: 100px; */
+}
+
+h1:hover span{
+    color: black !important;
+}
+
+.intro-text{
+    padding: 3% 15% 7%;
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.75rem;
+    animation: gradient 15s ease infinite;
+
+
+}
+
+.image{
+    border-radius: 25px;
+    width: 60%;
+    height: auto; 
+    opacity: 0.3;
+}
+
+h1 > .special-text{
+    font-size: 25px;
+    font-family: 'Arimo', sans-serif;
+    font-color: red;
+}
+
+#about{
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    /* background-color: black; */
+    padding-bottom: 100px;
+    
+}
+.about-header{
+    padding-top: 100px;
+    display: flex; 
+    justify-content: center;
+    color: white;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.about-text{
+    font-size: 1.6rem;
+    font-family: 'Arimo', sans-serif;
+    /* margin: 80px; */
+    
+}
+
+.about-img{
+
+    width: 100%;
+    padding-right: 50px;
+    /* height: auto;  */
+    /* display: flex; */
+    opacity: 0.3;
+    border-radius: 25px;
+    /* justify-content: center;
+*/
+}
+.skills-header{
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.skills-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 35%;
+    padding: 100px 0px 100px 0px;
+    background-color: #fff;
+    border-radius: 11px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    /* padding: 20px;
+    margin: 10px; */
+}
+
+.skill {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 767px) {
+    .col-lg-3 {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }
+
+.skill-container{
+    justify-content: center;
+}
+.education-container{
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+    line-height: 30px;
+}
+
+#skills{
+    justify-content: center;
+}
+
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .quotes{
+      text-align: center;
+      font-family: 'PT Sans Caption', sans-serif;
+      padding-bottom: 50px;
+
+  }
+
+  #qoutes-corousel{
+      margin: 100px;
+   
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    /* font-size: 100px; 
+    margin-top: -50px; */ß
+    color: red;
+}
+
+    /* .carousel-inner{
+        width: 200px;
+       
+    } */
+    .carousel-item{
+        text-align: center;
+        /* width: 50%; */
+    }
+
+  .form-container{
+    background-color:aquamarine ;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    justify-content: center;
+    
+  }
+
+  .contact-box{
+      background-color:aquamarine;
+      display: flex;
+      
+  }
+
+  .connect-txt{
+    color: white;
+    padding-top: 20px;
+
+  }
+
+  .request-txt{
+      padding-top: 50px;
+      /* text-align: center; */
+  }
+
+  .input-group{
+      padding: 30px;
+      font-family: 'PT Sans Caption', sans-serif;
+      display: grid;
+      text-align: center;     
+  }
+
+  /* input[type=text]{
+    border-radius:20px 20px ;
+  } */
+
+  /* input[type=message]{
+    border-radius:20px;
+  } */
+  form{
+     margin: 0 auto;
+     background-color:aquamarine;
+     
+     
+  }
+#reach-me{
+    margin-top: 50px;
+    
+}
+.reach-txt{
+    text-align: center;
+}
+
+#footer{
+   text-align: center;
+   padding: 10px;
+}
+
+.copyright{
+    padding-top: 20px;
+}
+
+.footer-icon{
+    padding: 10px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.btn{
+    margin-bottom: 20px;
+}
+
+.education-container{
+    padding-left: 50px 
+    
+}
+
+
+@media(min-width:901px){
+    .col-lg-6 .intro-text {
+        float: right;
+        
+    }
+}
+
+             /* Add custom styles here */
+             body {
+                font-family: Arial, sans-serif;
+            }
+    
+            /* Add your custom color palette here */
+            :root {
+                --primary-color: #FF6B6B;
+                --secondary-color: #FFE66D;
+                --background-color: #F3F3F3;
+            }
+    
+            /* Update the about section styles */
+            #about {
+                background-color: var(--background-color);
+                padding: 40px 0;
+            }
+    
+            /* Add animations to the about header */
+            .about-header h2 {
+                animation: fadeInUp 1s ease-in-out;
+            }
+    
+            /* Add background effect to the contact section */
+            #contact {
+                background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+                color: white;
+                padding: 40px 0;
+            }
+    
+            /* Add styles for the contact form */
+            .contact-form {
+                max-width: 500px;
+                margin: 0 auto;
+            }
+    
+            /* Add custom color palette to form elements */
+            .contact-form input[type="text"],
+            .contact-form input[type="email"],
+            .contact-form textarea,
+            .contact-form input[type="submit"] {
+                background-color: var(--background-color);
+                color: var(--primary-color);
+                border: 1px solid var(--primary-color);
+                padding: 10px;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+    
+            /* Add animation for form inputs */
+            .contact-form input[type="text"],
+            .contact-form input[type="email"],
+            .contact-form textarea {
+                animation: slideInLeft 1s ease-in-out;
+            }
+    
+            /* Add animation for form submit button */
+            .contact-form input[type="submit"] {
+                animation: slideInRight 1s ease-in-out;
+            }
+    
+            /* Add styles for social media icons */
+            .social-icons {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+    
+            .social-icons a {
+                color: white;
+                font-size: 24px;
+                margin: 0 10px;
+                transition: color 0.3s ease-in-out;
+            }
+    
+            .social-icons a:hover {
+                color: #FFD700;
+            }
+    
+            /* Define animations */
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translate3d(0, 20px, 0);
+                }
+                to {
+                    opacity: 1;
+                    transform: translate3d(0, 0, 0);
+                }
+            }
+    
+            @keyframes slideInLeft {
+                from {
+                    opacity: 0;
+                    transform: translate3d(-20px, 0, 0);
+                }
+                to {
+                    opacity: 1;
+                    transform: translate3d(0, 0, 0);
+                }
+            }
+    
+                /* Add custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Add your custom color palette here */
+        :root {
+            --primary-color: #FF6B6B;
+            --secondary-color: #FFE66D;
+            --background-color: #F3F3F3;
+        }
+
+        /* Update the about section styles */
+        #about {
+            background-color: var(--background-color);
+            padding: 40px 0;
+        }
+
+        /* Add animations to the about header */
+        .about-header h2 {
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        /* Add background effect to the contact section */
+        #contact {
+            background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 40px 0;
+        }
+
+        /* Add styles for the contact form */
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        /* Add custom color palette to form elements */
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea,
+        .contact-form input[type="submit"] {
+            background-color: var(--background-color);
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        /* Add animation for form inputs */
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            animation: slideInLeft 1s ease-in-out;
+        }
+
+        /* Add animation for form submit button */
+        .contact-form input[type="submit"] {
+            animation: slideInRight 1s ease-in-out;
+        }
+
+        /* Add styles for social media icons */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-icons a:hover {
+            color: #FFD700;
+        }
+
+        /* Define animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translate3d(0, 20px, 0);
+            }
+            to {
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translate3d(-20px, 0, 0);
+            }
+            to {
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translate3d
